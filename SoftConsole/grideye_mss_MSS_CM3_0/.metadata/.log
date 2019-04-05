@@ -1,0 +1,41 @@
+!SESSION 2019-04-05 15:32:19.732 -----------------------------------------------
+eclipse.buildId=M20101209-1200
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -application org.eclipse.cdt.managedbuilder.core.headlessbuild -import C:\Users\darshin\Desktop\grideye\grideye\SoftConsole\grideye_mss_MSS_CM3_0\projects\grideye_mss_MSS_CM3_0_hw_platform
+Command-line arguments:  -os win32 -ws win32 -arch x86 -application org.eclipse.cdt.managedbuilder.core.headlessbuild -data C:/Users/darshin/Desktop/grideye/grideye/SoftConsole/grideye_mss_MSS_CM3_0 -import C:\Users\darshin\Desktop\grideye\grideye\SoftConsole\grideye_mss_MSS_CM3_0\projects\grideye_mss_MSS_CM3_0_hw_platform
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-04-05 15:32:21.701
+!MESSAGE Indexed 'grideye_mss_MSS_CM3_0_hw_platform' (12 sources, 51 headers) in 0.58 sec: 3,216 declarations; 6,955 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.01%)
+!SESSION 2019-04-05 15:32:22.513 -----------------------------------------------
+eclipse.buildId=M20101209-1200
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -application org.eclipse.cdt.managedbuilder.core.headlessbuild -import C:\Users\darshin\Desktop\grideye\grideye\SoftConsole\grideye_mss_MSS_CM3_0\projects\grideye_mss_MSS_CM3_0_app
+Command-line arguments:  -os win32 -ws win32 -arch x86 -application org.eclipse.cdt.managedbuilder.core.headlessbuild -data C:/Users/darshin/Desktop/grideye/grideye/SoftConsole/grideye_mss_MSS_CM3_0 -import C:\Users\darshin\Desktop\grideye\grideye\SoftConsole\grideye_mss_MSS_CM3_0\projects\grideye_mss_MSS_CM3_0_app
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-04-05 15:32:23.169
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-04-05 15:32:24.028
+!MESSAGE Indexed 'grideye_mss_MSS_CM3_0_app' (1 sources, 8 headers) in 0.11 sec: 1 declarations; 0 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+!SESSION 2019-04-05 16:03:40.382 -----------------------------------------------
+eclipse.buildId=M20101209-1200
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:/Users/darshin/Desktop/grideye/grideye/SoftConsole/grideye_mss_MSS_CM3_0
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-04-05 16:03:41.162
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2019-04-05 16:52:43.208 -----------------------------------------------
+eclipse.buildId=M20101209-1200
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:/Users/darshin/Desktop/grideye/SoftConsole/grideye_mss_MSS_CM3_0
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-04-05 16:52:43.989
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.

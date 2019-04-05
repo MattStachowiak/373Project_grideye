@@ -1,0 +1,17 @@
+*****************************************************************
+Pin Report - Date: Fri Apr 05 16:44:53 2019 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.9
+Version: 11.9.0.4
+Design Name: grideye_top
+Family: SmartFusion
+Die: A2F200M3F
+Package: 484 FBGA
+*****************************************************************
+Port        |Pin |Fixed |Function           |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Schmitt Trigger |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+------------|----|------|-------------------|--------|------------------|-----|--------------|----------------|-----|-----------------|------------|--------------|
+I2C_1_SCL    U20  Yes    I2C_1_SCL/GPIO_31   LVTTL    8                  High  None           No               No    35                No           Yes
+I2C_1_SDA    V22  Yes    I2C_1_SDA/GPIO_30   LVTTL    8                  High  None           No               No    35                No           Yes
+MSS_RESET_N  R1   Yes    MSS_RESET_N         LVTTL    ---                ---   None           No               ---   ---               No           Yes
+UART_0_RXD   U18  Yes    UART_0_RXD/GPIO_21  LVTTL    ---                ---   None           No               ---   ---               No           Yes
+UART_0_TXD   Y22  Yes    UART_0_TXD/GPIO_20  LVTTL    8                  High  None           ---              No    35                No           Yes

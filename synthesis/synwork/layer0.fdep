@@ -1,0 +1,49 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\darshin\\Desktop\\grideye\\grideye\\synthesis\\synwork\\grideye_top_comp.srs|-top|grideye_top|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-I|C:\\Users\\darshin\\Desktop\\grideye\\grideye\\synthesis\\|-I|C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib|-v2001|-devicelib|C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\proasic\\smartfusion.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\bin64\\c_ver.exe":1509358336
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\proasic\\smartfusion.v":1509027488
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\hypermods.v":1509029528
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\umr_capim.v":1509029528
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1509029528
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1509029528
+#CUR:"C:\\Users\\darshin\\Desktop\\grideye\\grideye\\component\\Actel\\SmartFusionMSS\\MSS\\2.5.200\\mss_comps.v":1536348874
+#CUR:"C:\\Users\\darshin\\Desktop\\grideye\\grideye\\component\\work\\grideye_mss\\mss_tshell.v":1554497050
+#CUR:"C:\\Users\\darshin\\Desktop\\grideye\\grideye\\component\\work\\grideye_mss\\MSS_CCC_0\\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v":1554497048
+#CUR:"C:\\Users\\darshin\\Desktop\\grideye\\grideye\\component\\work\\grideye_mss\\grideye_mss.v":1554497051
+#CUR:"C:\\Users\\darshin\\Desktop\\grideye\\grideye\\component\\work\\grideye_top\\grideye_top.v":1554497067
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"C:\Users\darshin\Desktop\grideye\grideye\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v" verilog
+1			"C:\Users\darshin\Desktop\grideye\grideye\component\work\grideye_mss\mss_tshell.v" verilog
+2			"C:\Users\darshin\Desktop\grideye\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v" verilog
+3			"C:\Users\darshin\Desktop\grideye\grideye\component\work\grideye_mss\grideye_mss.v" verilog
+4			"C:\Users\darshin\Desktop\grideye\grideye\component\work\grideye_top\grideye_top.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 0
+3 2 1 0
+4 3
+#Dependency Lists(Users Of)
+0 2 3
+1 3
+2 3
+3 4
+4 -1
+#Design Unit to File Association
+module work MSS_XTLOSC 0
+module work MSS_LPXTLOSC 0
+module work INBUF_MSS 0
+module work OUTBUF_MSS 0
+module work TRIBUFF_MSS 0
+module work BIBUF_MSS 0
+module work BIBUF_OPEND_MSS 0
+module work INBUF_MCCC 0
+module work INBUF_LVPECL_MCCC 0
+module work INBUF_LVDS_MCCC 0
+module work MSSINT 0
+module work MSS_CCC 0
+module work MSS_ALL 0
+module work MSS_APB 1
+module work grideye_mss_tmp_MSS_CCC_0_MSS_CCC 2
+module work grideye_mss 3
+module work grideye_top 4

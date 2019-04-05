@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <inttypes.h>
+#include "drivers/mss_i2c/mss_i2c.h"
+
+#define gridEYE_ADDR 0b1101001
+
+int main()
+{
+
+	// Initialize with a clock freq of ~ 400kHz
+	MSS_I2C_init(&g_mss_i2c1 , gridEYE_ADDR, MSS_I2C_PCLK_DIV_256 );
+
+	uint8_t transmit_buffer[] = { 0x01, 0b00110000};
+
+	MSS_I2C_write
+	(
+			&g_mss_i2c1,
+			gridEYE_ADDR,
+			transmit_buffer,
+			sizeof(transmit_buffer),
+			MSS_I2C_RELEASE_BUS
+
+	);
+
+	MSS_I2C_wait_complete(&g_mss_i2c1, MSS_I2C_NO_TIMEOUT);
+
+	while (1) {
+	}
+
+
+	return 0;
+}

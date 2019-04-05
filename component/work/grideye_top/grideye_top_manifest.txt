@@ -1,0 +1,14 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.9 (Version 11.9.0.4)
+
+Date      :  Fri Apr 05 16:44:29 2019
+Project   :  C:\Users\darshin\Desktop\grideye\grideye
+Component :  grideye_top
+Family    :  SmartFusion
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/darshin/Desktop/grideye/grideye/component/work/grideye_top/grideye_top.v
+
+Stimulus files for all Simulation tools:
+    C:/Users/darshin/Desktop/grideye/grideye/component/work/grideye_top/subsystem.bfm
+

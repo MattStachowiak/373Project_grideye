@@ -1,0 +1,6 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MO111 :"c:\users\darshin\desktop\grideye\grideye\component\work\grideye_mss\mss_ccc_0\grideye_mss_tmp_mss_ccc_0_mss_ccc.v":64:7:64:18|Tristate driver LPXIN_CLKOUT (in view: work.grideye_mss_tmp_MSS_CCC_0_MSS_CCC(verilog)) on net LPXIN_CLKOUT (in view: work.grideye_mss_tmp_MSS_CCC_0_MSS_CCC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\darshin\desktop\grideye\grideye\component\work\grideye_mss\mss_ccc_0\grideye_mss_tmp_mss_ccc_0_mss_ccc.v":63:7:63:20|Tristate driver MAINXIN_CLKOUT (in view: work.grideye_mss_tmp_MSS_CCC_0_MSS_CCC(verilog)) on net MAINXIN_CLKOUT (in view: work.grideye_mss_tmp_MSS_CCC_0_MSS_CCC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\darshin\desktop\grideye\grideye\component\work\grideye_mss\mss_ccc_0\grideye_mss_tmp_mss_ccc_0_mss_ccc.v":62:7:62:18|Tristate driver RCOSC_CLKOUT (in view: work.grideye_mss_tmp_MSS_CCC_0_MSS_CCC(verilog)) on net RCOSC_CLKOUT (in view: work.grideye_mss_tmp_MSS_CCC_0_MSS_CCC(verilog)) has its enable tied to GND.
+@N: BN225 |Writing default property annotation file C:\Users\darshin\Desktop\grideye\grideye\synthesis\grideye_top.sap.

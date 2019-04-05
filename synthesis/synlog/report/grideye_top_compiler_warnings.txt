@@ -1,0 +1,4 @@
+@W: CL157 :"C:\Users\darshin\Desktop\grideye\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v":62:7:62:18|*Output RCOSC_CLKOUT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"C:\Users\darshin\Desktop\grideye\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v":63:7:63:20|*Output MAINXIN_CLKOUT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"C:\Users\darshin\Desktop\grideye\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v":64:7:64:18|*Output LPXIN_CLKOUT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+
