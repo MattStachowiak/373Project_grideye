@@ -515,8 +515,12 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Program Device:grideye_top_program.log
 StartPage;StartPage;0
-ACTIVEVIEW;StartPage
+SmartDesign;grideye_top;0
+SmartDesign;grideye_mss;0
+ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList
 LIST "BIBUF_MSS::work","component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v","FALSE","FALSE"
