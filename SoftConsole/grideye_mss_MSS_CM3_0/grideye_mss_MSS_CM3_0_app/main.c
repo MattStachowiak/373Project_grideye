@@ -31,7 +31,7 @@ void gridEYE_write(uint8_t* reg_addr, uint8_t* data){
 		);
 
 	MSS_I2C_wait_complete(&g_mss_i2c1, MSS_I2C_NO_TIMEOUT);
-}
+}//gridEYE_write()
 
 // Read from a specific register on the gridEYE
 // reg_addr: 1-byte array containing address of register to read
@@ -50,7 +50,7 @@ void gridEYE_read(uint8_t* reg_addr, uint8_t* recieved_data ){
 		);
 
 	MSS_I2C_wait_complete(&g_mss_i2c1, MSS_I2C_NO_TIMEOUT);
-}
+}//gridEYE_read()
 
 // Function converts a 12 byte 2C number to
 // a signed float
@@ -67,21 +67,33 @@ float raw_to_temp(uint8_t upper, uint8_t lower){
 		full |= 0xFFFFF000;
 	}
 	return (float)full*0.25;
-}
+}//raw_to_temp()
 
 
 // Function converts 128 byte raw data array
 // to a set of 64 signed float values
-void get_temps(uint8_t* data_in, float* temps){
+// This function also reverses the values from left
+// to right for easier debugging while printing
+void get_temps_reversed(uint8_t* data_in, float temps[][8]){
 
 	int i = 0;
 	int j = 0;
-	for (i = 0; i < 128; i += 2){
-		temps[j] = raw_to_temp(data_in[i + 1], data_in[i]);
+	int k = 0;
+
+	// Iterate through all data
+	for (i = 0; i < 128; i += 2) {
+		// Move one column to the right every 16 input bytes
+		if(i && i%16 == 0){
+			++k;
+			j = 0;
+		}
+
+		// Read upper and lower bytes, convert to float, store
+		temps[j][k] = raw_to_temp(data_in[i + 1], data_in[i]);
+
 		++j;
 	}
-
-}
+}//get_temps_reversed()
 
 int main()
 {
@@ -104,34 +116,33 @@ int main()
 	uint8_t pixel_addr[] = {0x80};
 	uint8_t pixel_data[128] = {0};
 
-	float temps[64];
+	float temps[8][8];
 
 	// The gridEYE uses a write_read I2C communication
 	// for read transactions.
 	// The write-data is the address of the register,
 	// the read data is a 1-byte data array that the slave modifies.
 
-
-
 	while (1) {
 		gridEYE_read(pixel_addr, pixel_data);
-		get_temps(pixel_data, temps);
+		get_temps_reversed(pixel_data, temps);
 
+		// Print Data
 		printf("\r\n\n\n");
 		int i = 0;
-		for (i = 0; i < 64; ++i){
-			if (i % 8 == 0){
-				printf("\r\n");
+		int j = 0;
+		for (i = 0; i < 8; ++i){
+			for(j = 0; j < 8; ++j){
+				if(temps[i][j] > 24.00)
+					printf("# ");
+				else
+					printf(". ");
+				//printf("%0.2f ", temps[i][j]);
 			}
-			if(temps[i] > 24.00)
-				printf("# ");
-			else
-				printf(". ");
-
+			printf("\r\n");
 		}
-
-	}
+	}//while(1)
 
 
 	return 0;
-}
+}//main()
