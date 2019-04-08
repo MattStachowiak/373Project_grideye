@@ -246,8 +246,8 @@ SIZE="273408"
 ENDFILE
 VALUE "<project>\designer\impl1\grideye_top.fdb,fdb"
 STATE="utd"
-TIME="1554746805"
-SIZE="32519"
+TIME="1554746890"
+SIZE="32521"
 ENDFILE
 VALUE "<project>\designer\impl1\grideye_top.ide_des,ide_des"
 STATE="utd"
@@ -276,18 +276,18 @@ SIZE="38008"
 ENDFILE
 VALUE "<project>\designer\impl1\grideye_top_placeroute_log.rpt,log"
 STATE="utd"
-TIME="1554746805"
-SIZE="2646"
+TIME="1554746877"
+SIZE="2632"
 ENDFILE
 VALUE "<project>\designer\impl1\grideye_top_prgdata_log.rpt,log"
 STATE="utd"
-TIME="1554746805"
-SIZE="685"
+TIME="1554746891"
+SIZE="657"
 ENDFILE
 VALUE "<project>\designer\impl1\grideye_top_verifytiming_log.rpt,log"
 STATE="utd"
-TIME="1554746805"
-SIZE="1178"
+TIME="1554746880"
+SIZE="1164"
 ENDFILE
 VALUE "<project>\simulation\CompileDssBfm.tcl,sim"
 STATE="utd"
@@ -441,10 +441,10 @@ ENDLIST
 LIST PhySynthesisOptions
 ENDLIST
 LIST Profiles
-NAME="SoftConsole"
+NAME="Softconsole33"
 FUNCTION="SoftwareIDE"
 TOOL="SoftConsole"
-LOCATION="eclipse.exe"
+LOCATION="C:\Microsemi\SoftConsole v3.3\Eclipse\eclipse.exe"
 PARAM=""
 BATCH=0
 LICENSE=""
@@ -454,8 +454,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\synplify_pro.exe"
-PARAM=""
-BATCH=0
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -515,8 +515,12 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Generate Programming Data:grideye_top_prgdata_log.rpt
+SmartDesign;grideye_mss;0
+SmartDesign;grideye_top;0
 StartPage;StartPage;0
-ACTIVEVIEW;StartPage
+ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList
 LIST "BIBUF_MSS::work","component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v","FALSE","FALSE"
