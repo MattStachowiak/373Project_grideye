@@ -129,6 +129,8 @@ Discarded input sections
  .text          0x00000000        0x0 ./main.o
  .data          0x00000000        0x0 ./main.o
  .bss           0x00000000        0x0 ./main.o
+ .text.get_temps_forward
+                0x00000000       0x90 ./main.o
  .text          0x00000000        0x0 C:/Users/mtstacho/Desktop/grideye/SoftConsole/grideye_mss_MSS_CM3_0/grideye_mss_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
  .data          0x00000000        0x0 C:/Users/mtstacho/Desktop/grideye/SoftConsole/grideye_mss_MSS_CM3_0/grideye_mss_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
  .bss           0x00000000        0x0 C:/Users/mtstacho/Desktop/grideye/SoftConsole/grideye_mss_MSS_CM3_0/grideye_mss_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
@@ -1076,45 +1078,45 @@ END GROUP
  .comment       0x000000ac       0x2b C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(core_cm3.o)
  .comment       0x000000d7       0x2b C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
 
-.debug_aranges  0x00000000      0x3e0
+.debug_aranges  0x00000000      0x3e8
  *(.debug_aranges)
  .debug_aranges
-                0x00000000       0x40 ./main.o
+                0x00000000       0x48 ./main.o
  .debug_aranges
-                0x00000040       0xa8 C:/Users/mtstacho/Desktop/grideye/SoftConsole/grideye_mss_MSS_CM3_0/grideye_mss_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+                0x00000048       0xa8 C:/Users/mtstacho/Desktop/grideye/SoftConsole/grideye_mss_MSS_CM3_0/grideye_mss_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
  .debug_aranges
-                0x000000e8       0xd8 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x000000f0       0xd8 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(mss_uart.o)
  .debug_aranges
-                0x000001c0      0x128 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+                0x000001c8      0x128 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(mss_i2c.o)
  .debug_aranges
-                0x000002e8       0xc8 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(core_cm3.o)
+                0x000002f0       0xc8 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(core_cm3.o)
  .debug_aranges
-                0x000003b0       0x30 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x000003b8       0x30 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
 
 .debug_pubnames
-                0x00000000      0x864
+                0x00000000      0x87a
  *(.debug_pubnames)
  .debug_pubnames
-                0x00000000       0x65 ./main.o
+                0x00000000       0x7b ./main.o
  .debug_pubnames
-                0x00000065       0xeb C:/Users/mtstacho/Desktop/grideye/SoftConsole/grideye_mss_MSS_CM3_0/grideye_mss_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+                0x0000007b       0xeb C:/Users/mtstacho/Desktop/grideye/SoftConsole/grideye_mss_MSS_CM3_0/grideye_mss_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
  .debug_pubnames
-                0x00000150      0x21c C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x00000166      0x21c C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(mss_uart.o)
  .debug_pubnames
-                0x0000036c      0x2eb C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+                0x00000382      0x2eb C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(mss_i2c.o)
  .debug_pubnames
-                0x00000657      0x159 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(core_cm3.o)
+                0x0000066d      0x159 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(core_cm3.o)
  .debug_pubnames
-                0x000007b0       0xb4 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x000007c6       0xb4 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
 
-.debug_info     0x00000000     0x54e5
+.debug_info     0x00000000     0x553f
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x00000000      0xce2 ./main.o
- .debug_info    0x00000ce2     0x10f0 C:/Users/mtstacho/Desktop/grideye/SoftConsole/grideye_mss_MSS_CM3_0/grideye_mss_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .debug_info    0x00001dd2     0x15a4 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(mss_uart.o)
- .debug_info    0x00003376     0x16e7 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(mss_i2c.o)
- .debug_info    0x00004a5d      0x54c C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(core_cm3.o)
- .debug_info    0x00004fa9      0x53c C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .debug_info    0x00000000      0xd3c ./main.o
+ .debug_info    0x00000d3c     0x10f0 C:/Users/mtstacho/Desktop/grideye/SoftConsole/grideye_mss_MSS_CM3_0/grideye_mss_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_info    0x00001e2c     0x15a4 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_info    0x000033d0     0x16e7 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+ .debug_info    0x00004ab7      0x54c C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(core_cm3.o)
+ .debug_info    0x00005003      0x53c C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
 
 .debug_abbrev   0x00000000      0x9dd
  *(.debug_abbrev)
@@ -1125,88 +1127,88 @@ END GROUP
  .debug_abbrev  0x000007f3       0xd9 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(core_cm3.o)
  .debug_abbrev  0x000008cc      0x111 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
 
-.debug_line     0x00000000     0x1ac5
+.debug_line     0x00000000     0x1ae5
  *(.debug_line)
- .debug_line    0x00000000      0x47a ./main.o
- .debug_line    0x0000047a      0x509 C:/Users/mtstacho/Desktop/grideye/SoftConsole/grideye_mss_MSS_CM3_0/grideye_mss_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .debug_line    0x00000983      0x575 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(mss_uart.o)
- .debug_line    0x00000ef8      0x6f2 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(mss_i2c.o)
- .debug_line    0x000015ea      0x260 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(core_cm3.o)
- .debug_line    0x0000184a      0x27b C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .debug_line    0x00000000      0x49a ./main.o
+ .debug_line    0x0000049a      0x509 C:/Users/mtstacho/Desktop/grideye/SoftConsole/grideye_mss_MSS_CM3_0/grideye_mss_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_line    0x000009a3      0x575 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_line    0x00000f18      0x6f2 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+ .debug_line    0x0000160a      0x260 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(core_cm3.o)
+ .debug_line    0x0000186a      0x27b C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
 
-.debug_frame    0x00000000     0x18b8
+.debug_frame    0x00000000     0x18dc
  *(.debug_frame)
- .debug_frame   0x00000000       0xb4 ./main.o
- .debug_frame   0x000000b4      0x220 C:/Users/mtstacho/Desktop/grideye/SoftConsole/grideye_mss_MSS_CM3_0/grideye_mss_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .debug_frame   0x000002d4      0x2e4 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(mss_uart.o)
- .debug_frame   0x000005b8      0x40c C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(mss_i2c.o)
- .debug_frame   0x000009c4      0x248 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(core_cm3.o)
- .debug_frame   0x00000c0c       0x64 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
- .debug_frame   0x00000c70       0x20 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
- .debug_frame   0x00000c90       0x2c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
- .debug_frame   0x00000cbc       0x28 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memset.o)
- .debug_frame   0x00000ce4       0x5c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-printf.o)
- .debug_frame   0x00000d40       0x40 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-puts.o)
- .debug_frame   0x00000d80       0x20 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strlen.o)
- .debug_frame   0x00000da0       0x70 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-vfprintf.o)
- .debug_frame   0x00000e10       0x2c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-wsetup.o)
- .debug_frame   0x00000e3c       0x64 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-dtoa.o)
- .debug_frame   0x00000ea0       0x40 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fflush.o)
- .debug_frame   0x00000ee0      0x11c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-findfp.o)
- .debug_frame   0x00000ffc       0x50 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-freer.o)
- .debug_frame   0x0000104c       0x3c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fvwrite.o)
- .debug_frame   0x00001088       0x54 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fwalk.o)
- .debug_frame   0x000010dc       0x6c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-locale.o)
- .debug_frame   0x00001148       0x34 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-makebuf.o)
- .debug_frame   0x0000117c       0x30 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-malloc.o)
- .debug_frame   0x000011ac       0x3c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mallocr.o)
- .debug_frame   0x000011e8       0x28 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memchr.o)
- .debug_frame   0x00001210       0x34 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memcpy.o)
- .debug_frame   0x00001244       0x2c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memmove.o)
- .debug_frame   0x00001270       0x30 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mlock.o)
- .debug_frame   0x000012a0      0x240 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mprec.o)
- .debug_frame   0x000014e0       0x3c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-reallocr.o)
- .debug_frame   0x0000151c       0x20 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-s_isinfd.o)
- .debug_frame   0x0000153c       0x20 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-s_isnand.o)
- .debug_frame   0x0000155c       0x2c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-sbrkr.o)
- .debug_frame   0x00001588       0x70 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-stdio.o)
- .debug_frame   0x000015f8       0x30 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strcmp.o)
- .debug_frame   0x00001628       0x2c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-callocr.o)
- .debug_frame   0x00001654       0x2c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-closer.o)
- .debug_frame   0x00001680       0x3c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fclose.o)
- .debug_frame   0x000016bc       0x2c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fstatr.o)
- .debug_frame   0x000016e8       0x2c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-isattyr.o)
- .debug_frame   0x00001714       0x2c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-lseekr.o)
- .debug_frame   0x00001740       0x2c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-readr.o)
- .debug_frame   0x0000176c       0x64 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-reent.o)
- .debug_frame   0x000017d0       0x20 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivsi3.o)
- .debug_frame   0x000017f0       0x50 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(bpabi.o)
- .debug_frame   0x00001840       0x3c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_divdi3.o)
- .debug_frame   0x0000187c       0x3c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivdi3.o)
+ .debug_frame   0x00000000       0xd8 ./main.o
+ .debug_frame   0x000000d8      0x220 C:/Users/mtstacho/Desktop/grideye/SoftConsole/grideye_mss_MSS_CM3_0/grideye_mss_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_frame   0x000002f8      0x2e4 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_frame   0x000005dc      0x40c C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+ .debug_frame   0x000009e8      0x248 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(core_cm3.o)
+ .debug_frame   0x00000c30       0x64 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .debug_frame   0x00000c94       0x20 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+ .debug_frame   0x00000cb4       0x2c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+ .debug_frame   0x00000ce0       0x28 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memset.o)
+ .debug_frame   0x00000d08       0x5c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-printf.o)
+ .debug_frame   0x00000d64       0x40 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-puts.o)
+ .debug_frame   0x00000da4       0x20 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strlen.o)
+ .debug_frame   0x00000dc4       0x70 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-vfprintf.o)
+ .debug_frame   0x00000e34       0x2c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-wsetup.o)
+ .debug_frame   0x00000e60       0x64 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-dtoa.o)
+ .debug_frame   0x00000ec4       0x40 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fflush.o)
+ .debug_frame   0x00000f04      0x11c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-findfp.o)
+ .debug_frame   0x00001020       0x50 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-freer.o)
+ .debug_frame   0x00001070       0x3c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fvwrite.o)
+ .debug_frame   0x000010ac       0x54 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fwalk.o)
+ .debug_frame   0x00001100       0x6c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-locale.o)
+ .debug_frame   0x0000116c       0x34 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-makebuf.o)
+ .debug_frame   0x000011a0       0x30 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-malloc.o)
+ .debug_frame   0x000011d0       0x3c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mallocr.o)
+ .debug_frame   0x0000120c       0x28 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memchr.o)
+ .debug_frame   0x00001234       0x34 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memcpy.o)
+ .debug_frame   0x00001268       0x2c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memmove.o)
+ .debug_frame   0x00001294       0x30 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mlock.o)
+ .debug_frame   0x000012c4      0x240 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mprec.o)
+ .debug_frame   0x00001504       0x3c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-reallocr.o)
+ .debug_frame   0x00001540       0x20 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-s_isinfd.o)
+ .debug_frame   0x00001560       0x20 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-s_isnand.o)
+ .debug_frame   0x00001580       0x2c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-sbrkr.o)
+ .debug_frame   0x000015ac       0x70 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-stdio.o)
+ .debug_frame   0x0000161c       0x30 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strcmp.o)
+ .debug_frame   0x0000164c       0x2c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-callocr.o)
+ .debug_frame   0x00001678       0x2c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-closer.o)
+ .debug_frame   0x000016a4       0x3c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fclose.o)
+ .debug_frame   0x000016e0       0x2c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fstatr.o)
+ .debug_frame   0x0000170c       0x2c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-isattyr.o)
+ .debug_frame   0x00001738       0x2c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-lseekr.o)
+ .debug_frame   0x00001764       0x2c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-readr.o)
+ .debug_frame   0x00001790       0x64 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-reent.o)
+ .debug_frame   0x000017f4       0x20 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivsi3.o)
+ .debug_frame   0x00001814       0x50 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(bpabi.o)
+ .debug_frame   0x00001864       0x3c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_divdi3.o)
+ .debug_frame   0x000018a0       0x3c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivdi3.o)
 
-.debug_str      0x00000000     0x217e
+.debug_str      0x00000000     0x2190
  *(.debug_str)
- .debug_str     0x00000000     0x1112 ./main.o
-                               0x11b2 (size before relaxing)
- .debug_str     0x00001112      0x492 C:/Users/mtstacho/Desktop/grideye/SoftConsole/grideye_mss_MSS_CM3_0/grideye_mss_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_str     0x00000000     0x1124 ./main.o
+                               0x11c4 (size before relaxing)
+ .debug_str     0x00001124      0x492 C:/Users/mtstacho/Desktop/grideye/SoftConsole/grideye_mss_MSS_CM3_0/grideye_mss_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
                                0x10ac (size before relaxing)
- .debug_str     0x000015a4      0x60b C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_str     0x000015b6      0x60b C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(mss_uart.o)
                                0x14bd (size before relaxing)
- .debug_str     0x00001baf      0x396 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+ .debug_str     0x00001bc1      0x396 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(mss_i2c.o)
                                0x175d (size before relaxing)
- .debug_str     0x00001f45      0x142 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(core_cm3.o)
+ .debug_str     0x00001f57      0x142 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(core_cm3.o)
                                 0x273 (size before relaxing)
- .debug_str     0x00002087       0xf7 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .debug_str     0x00002099       0xf7 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
                                 0x460 (size before relaxing)
 
-.debug_loc      0x00000000     0x1598
+.debug_loc      0x00000000     0x15cf
  *(.debug_loc)
- .debug_loc     0x00000000      0x115 ./main.o
- .debug_loc     0x00000115      0x3c6 C:/Users/mtstacho/Desktop/grideye/SoftConsole/grideye_mss_MSS_CM3_0/grideye_mss_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .debug_loc     0x000004db      0x510 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(mss_uart.o)
- .debug_loc     0x000009eb      0x736 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(mss_i2c.o)
- .debug_loc     0x00001121      0x3de C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(core_cm3.o)
- .debug_loc     0x000014ff       0x99 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .debug_loc     0x00000000      0x14c ./main.o
+ .debug_loc     0x0000014c      0x3c6 C:/Users/mtstacho/Desktop/grideye/SoftConsole/grideye_mss_MSS_CM3_0/grideye_mss_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_loc     0x00000512      0x510 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_loc     0x00000a22      0x736 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+ .debug_loc     0x00001158      0x3de C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(core_cm3.o)
+ .debug_loc     0x00001536       0x99 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
 
 .debug_macinfo  0x00000000    0x2703f
  *(.debug_macinfo)
@@ -1371,10 +1373,10 @@ END GROUP
  *(.isr_vector)
 OUTPUT(grideye_mss_MSS_CM3_0_app elf32-littlearm)
 
-.debug_ranges   0x00000000      0x3c8
- .debug_ranges  0x00000000       0x38 ./main.o
- .debug_ranges  0x00000038       0xa0 C:/Users/mtstacho/Desktop/grideye/SoftConsole/grideye_mss_MSS_CM3_0/grideye_mss_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .debug_ranges  0x000000d8       0xd0 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(mss_uart.o)
- .debug_ranges  0x000001a8      0x138 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(mss_i2c.o)
- .debug_ranges  0x000002e0       0xc0 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(core_cm3.o)
- .debug_ranges  0x000003a0       0x28 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+.debug_ranges   0x00000000      0x3d0
+ .debug_ranges  0x00000000       0x40 ./main.o
+ .debug_ranges  0x00000040       0xa0 C:/Users/mtstacho/Desktop/grideye/SoftConsole/grideye_mss_MSS_CM3_0/grideye_mss_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_ranges  0x000000e0       0xd0 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_ranges  0x000001b0      0x138 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(mss_i2c.o)
+ .debug_ranges  0x000002e8       0xc0 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(core_cm3.o)
+ .debug_ranges  0x000003a8       0x28 C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\Debug\libgrideye_mss_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)

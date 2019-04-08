@@ -15,27 +15,27 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   ALLOC
   5 .comment      00000102  00000000  00000000  000110c0  2**0
                   CONTENTS, READONLY
-  6 .debug_aranges 000003e0  00000000  00000000  000111c2  2**0
+  6 .debug_aranges 000003e8  00000000  00000000  000111c2  2**0
                   CONTENTS, READONLY, DEBUGGING
-  7 .debug_pubnames 00000864  00000000  00000000  000115a2  2**0
+  7 .debug_pubnames 0000087a  00000000  00000000  000115aa  2**0
                   CONTENTS, READONLY, DEBUGGING
-  8 .debug_info   000054e5  00000000  00000000  00011e06  2**0
+  8 .debug_info   0000553f  00000000  00000000  00011e24  2**0
                   CONTENTS, READONLY, DEBUGGING
-  9 .debug_abbrev 000009dd  00000000  00000000  000172eb  2**0
+  9 .debug_abbrev 000009dd  00000000  00000000  00017363  2**0
                   CONTENTS, READONLY, DEBUGGING
- 10 .debug_line   00001ac5  00000000  00000000  00017cc8  2**0
+ 10 .debug_line   00001ae5  00000000  00000000  00017d40  2**0
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_frame  000018b8  00000000  00000000  00019790  2**2
+ 11 .debug_frame  000018dc  00000000  00000000  00019828  2**2
                   CONTENTS, READONLY, DEBUGGING
- 12 .debug_str    0000217e  00000000  00000000  0001b048  2**0
+ 12 .debug_str    00002190  00000000  00000000  0001b104  2**0
                   CONTENTS, READONLY, DEBUGGING
- 13 .debug_loc    00001598  00000000  00000000  0001d1c6  2**0
+ 13 .debug_loc    000015cf  00000000  00000000  0001d294  2**0
                   CONTENTS, READONLY, DEBUGGING
- 14 .debug_macinfo 0002703f  00000000  00000000  0001e75e  2**0
+ 14 .debug_macinfo 0002703f  00000000  00000000  0001e863  2**0
                   CONTENTS, READONLY, DEBUGGING
- 15 .ARM.attributes 00000025  00000000  00000000  0004579d  2**0
+ 15 .ARM.attributes 00000025  00000000  00000000  000458a2  2**0
                   CONTENTS, READONLY
- 16 .debug_ranges 000003c8  00000000  00000000  000457c2  2**0
+ 16 .debug_ranges 000003d0  00000000  00000000  000458c7  2**0
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:
@@ -979,6 +979,9 @@ void get_temps_reversed(uint8_t* data_in, float temps[][8]){
 2000061a:	bdb0      	pop	{r4, r5, r7, pc}
 
 2000061c <main>:
+		++j;
+	}
+}//get_temps_forward()
 
 int main()
 {
@@ -994,14 +997,13 @@ int main()
 2000062e:	f04f 0200 	mov.w	r2, #0
 20000632:	f000 fc87 	bl	20000f44 <MSS_I2C_init>
 
+	// Reset Device
 	uint8_t resAddr[] = {0x1};
 20000636:	f04f 0301 	mov.w	r3, #1
 2000063a:	f887 3194 	strb.w	r3, [r7, #404]	; 0x194
 	uint8_t resVal[] = {0x3f};
 2000063e:	f04f 033f 	mov.w	r3, #63	; 0x3f
 20000642:	f887 3190 	strb.w	r3, [r7, #400]	; 0x190
-
-	// Reset Device
 	gridEYE_write(resAddr, resVal);
 20000646:	f507 72ca 	add.w	r2, r7, #404	; 0x194
 2000064a:	f507 73c8 	add.w	r3, r7, #400	; 0x190
@@ -1009,14 +1011,13 @@ int main()
 20000650:	4619      	mov	r1, r3
 20000652:	f7ff ff25 	bl	200004a0 <gridEYE_write>
 
+	// Set normal power mode
 	uint8_t powAddr[] = {0x0};
 20000656:	f04f 0300 	mov.w	r3, #0
 2000065a:	f887 318c 	strb.w	r3, [r7, #396]	; 0x18c
 	uint8_t powVal[] = {0x0};
 2000065e:	f04f 0300 	mov.w	r3, #0
 20000662:	f887 3188 	strb.w	r3, [r7, #392]	; 0x188
-
-	// Set normal power mode
 	gridEYE_write(powAddr, powVal);
 20000666:	f507 72c6 	add.w	r2, r7, #396	; 0x18c
 2000066a:	f507 73c4 	add.w	r3, r7, #392	; 0x188
@@ -1024,6 +1025,7 @@ int main()
 20000670:	4619      	mov	r1, r3
 20000672:	f7ff ff15 	bl	200004a0 <gridEYE_write>
 
+	// Base pixel register is 0x80
 	uint8_t pixel_addr[] = {0x80};
 20000676:	f06f 037f 	mvn.w	r3, #127	; 0x7f
 2000067a:	f887 3184 	strb.w	r3, [r7, #388]	; 0x184
@@ -1045,6 +1047,8 @@ int main()
 2000069a:	4610      	mov	r0, r2
 2000069c:	4619      	mov	r1, r3
 2000069e:	f7ff ff27 	bl	200004f0 <gridEYE_read>
+		// Use get_temps_reversed() for debugging
+		// get_temps_forward() for final build
 		get_temps_reversed(pixel_data, temps);
 200006a2:	f507 7282 	add.w	r2, r7, #260	; 0x104
 200006a6:	f107 0304 	add.w	r3, r7, #4
@@ -1113,10 +1117,10 @@ int main()
 2000073e:	f8d7 319c 	ldr.w	r3, [r7, #412]	; 0x19c
 20000742:	2b07      	cmp	r3, #7
 20000744:	ddcd      	ble.n	200006e2 <main+0xc6>
+				if(temps[i][j] > 24.00)
 					printf("# ");
 				else
 					printf(". ");
-				//printf("%0.2f ", temps[i][j]);
 			}
 			printf("\r\n");
 20000746:	f648 00fc 	movw	r0, #35068	; 0x88fc
@@ -1134,8 +1138,8 @@ int main()
 2000075e:	f8d7 3198 	ldr.w	r3, [r7, #408]	; 0x198
 20000762:	2b07      	cmp	r3, #7
 20000764:	ddb8      	ble.n	200006d8 <main+0xbc>
+				else
 					printf(". ");
-				//printf("%0.2f ", temps[i][j]);
 			}
 			printf("\r\n");
 		}

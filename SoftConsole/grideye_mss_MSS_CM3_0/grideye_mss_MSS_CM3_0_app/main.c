@@ -95,24 +95,48 @@ void get_temps_reversed(uint8_t* data_in, float temps[][8]){
 	}
 }//get_temps_reversed()
 
+// Function converts 128 byte raw data array
+// to a set of 64 signed float values
+// Data is oriented in the same positions
+// as the vision of the grideye (looking outward)
+void get_temps_forward(uint8_t* data_in, float temps[][8]){
+
+	int i = 0;
+	int j = 0;
+	int k = 7;
+
+	// Iterate through all data
+	for (i = 0; i < 128; i += 2) {
+		// Move one column to the left every 16 input bytes
+		if(i && i%16 == 0){
+			--k;
+			j = 0;
+		}
+
+		// Read upper and lower bytes, convert to float, store
+		temps[j][k] = raw_to_temp(data_in[i + 1], data_in[i]);
+
+		++j;
+	}
+}//get_temps_forward()
+
 int main()
 {
 
 	// Initialize with a clock freq of ~ 400kHz
 	MSS_I2C_init(&g_mss_i2c1 , gridEYE_ADDR, MSS_I2C_PCLK_DIV_256 );
 
+	// Reset Device
 	uint8_t resAddr[] = {0x1};
 	uint8_t resVal[] = {0x3f};
-
-	// Reset Device
 	gridEYE_write(resAddr, resVal);
 
+	// Set normal power mode
 	uint8_t powAddr[] = {0x0};
 	uint8_t powVal[] = {0x0};
-
-	// Set normal power mode
 	gridEYE_write(powAddr, powVal);
 
+	// Base pixel register is 0x80
 	uint8_t pixel_addr[] = {0x80};
 	uint8_t pixel_data[128] = {0};
 
@@ -125,6 +149,8 @@ int main()
 
 	while (1) {
 		gridEYE_read(pixel_addr, pixel_data);
+		// Use get_temps_reversed() for debugging
+		// get_temps_forward() for final build
 		get_temps_reversed(pixel_data, temps);
 
 		// Print Data
@@ -137,12 +163,10 @@ int main()
 					printf("# ");
 				else
 					printf(". ");
-				//printf("%0.2f ", temps[i][j]);
 			}
 			printf("\r\n");
 		}
 	}//while(1)
-
 
 	return 0;
 }//main()
