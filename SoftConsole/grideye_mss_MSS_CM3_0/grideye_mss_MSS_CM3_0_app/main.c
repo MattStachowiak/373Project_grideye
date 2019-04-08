@@ -116,9 +116,6 @@ int main()
 	while (1) {
 		gridEYE_read(pixel_addr, pixel_data);
 		get_temps(pixel_data, temps);
-		/*printf("%.2f\t%.2f\t%.2f\t%.2f\t%.2f\t%.2f\t%.2f\t%.2f\t Celcius\r\n",
-				temps[0], temps[1], temps[2],
-				temps[3], temps[4], temps[5], temps[6], temps[7]);*/
 
 		printf("\r\n\n\n");
 		int i = 0;
@@ -126,7 +123,7 @@ int main()
 			if (i % 8 == 0){
 				printf("\r\n");
 			}
-			if(temps[i] > 23.00)
+			if(temps[i] > 24.00)
 				printf("# ");
 			else
 				printf(". ");
