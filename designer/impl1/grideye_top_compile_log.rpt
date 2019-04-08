@@ -9,15 +9,15 @@ Opened an existing Libero design grideye_top.adb.
 'IDE_DESIGNERVIEW_COUNT' set to '1'
 'IDE_DESIGNERVIEW_REV0' set to 'Impl1'
 'IDE_DESIGNERVIEW_REVNUM0' set to '1'
-'IDE_DESIGNERVIEW_ROOTDIR' set to 'C:\Users\darshin\Desktop\grideye\grideye\designer'
+'IDE_DESIGNERVIEW_ROOTDIR' set to 'C:\Users\mtstacho\Desktop\grideye\designer'
 'IDE_DESIGNERVIEW_LASTREV' set to '1'
 
  Netlist Reading Time = 0.0 seconds
 Imported the files:
-   C:\Users\darshin\Desktop\grideye\grideye\synthesis\grideye_top.edn
-   C:\Users\darshin\Desktop\grideye\grideye\component\work\grideye_top\grideye_top.pdc
+   C:\Users\mtstacho\Desktop\grideye\synthesis\grideye_top.edn
+   C:\Users\mtstacho\Desktop\grideye\component\work\grideye_top\grideye_top.pdc
 
-The Import command succeeded ( 00:00:02 )
+The Import command succeeded ( 00:00:01 )
 =====================================================================
 Parameters used to run compile:
 ===============================
@@ -25,9 +25,8 @@ Parameters used to run compile:
 Family      : SmartFusion
 Device      : A2F200M3F
 Package     : 484 FBGA
-Source      : C:\Users\darshin\Desktop\grideye\grideye\synthesis\grideye_top.edn
-
-C:\Users\darshin\Desktop\grideye\grideye\component\work\grideye_top\grideye_top.pdc
+Source      : C:\Users\mtstacho\Desktop\grideye\synthesis\grideye_top.edn
+              C:\Users\mtstacho\Desktop\grideye\component\work\grideye_top\grideye_top.pdc
 Format      : EDIF
 Topcell     : grideye_top
 Speed grade : STD
@@ -472,17 +471,17 @@ I/O Technology:
 Net information report:
 =======================
 
-The Compile command succeeded ( 00:00:00 )
+The Compile command succeeded ( 00:00:01 )
 Wrote status report to file: grideye_top_compile_report.txt
 
 The Report command succeeded ( 00:00:00 )
 Wrote pin report to file: grideye_top_report_pin_byname.txt
 
-The Report command succeeded ( 00:00:01 )
+The Report command succeeded ( 00:00:00 )
 Wrote pin report to file: grideye_top_report_pin_bynumber.txt
 
 The Report command succeeded ( 00:00:01 )
-Design saved to file C:\Users\darshin\Desktop\grideye\grideye\designer\impl1\grideye_top.adb.
+Design saved to file C:\Users\mtstacho\Desktop\grideye\designer\impl1\grideye_top.adb.
 
 The Execute Script command succeeded ( 00:00:05 )
 Design closed.

@@ -11,20 +11,17 @@ Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys softwa
 @I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
 @I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
 @I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
-@I::"C:\Users\darshin\Desktop\grideye\grideye\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v" (library work)
-@I::"C:\Users\darshin\Desktop\grideye\grideye\component\work\grideye_mss\mss_tshell.v" (library work)
-@I::"C:\Users\darshin\Desktop\grideye\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v" (library work)
-@I::"C:\Users\darshin\Desktop\grideye\grideye\component\work\grideye_mss\grideye_mss.v" (library work)
-@I::"C:\Users\darshin\Desktop\grideye\grideye\component\work\grideye_top\grideye_top.v" (library work)
+@I::"C:\Users\mtstacho\Desktop\grideye\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v" (library work)
+@I::"C:\Users\mtstacho\Desktop\grideye\component\work\grideye_mss\mss_tshell.v" (library work)
+@I::"C:\Users\mtstacho\Desktop\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v" (library work)
+@I::"C:\Users\mtstacho\Desktop\grideye\component\work\grideye_mss\grideye_mss.v" (library work)
+@I::"C:\Users\mtstacho\Desktop\grideye\component\work\grideye_top\grideye_top.v" (library work)
 Verilog syntax check successful!
-File C:\Users\darshin\Desktop\grideye\grideye\component\work\grideye_mss\mss_tshell.v changed - recompiling
-File C:\Users\darshin\Desktop\grideye\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v changed - recompiling
-File C:\Users\darshin\Desktop\grideye\grideye\component\work\grideye_mss\grideye_mss.v changed - recompiling
-File C:\Users\darshin\Desktop\grideye\grideye\component\work\grideye_top\grideye_top.v changed - recompiling
+Options changed - recompiling
 Selecting top level module grideye_top
-@N: CG364 :"C:\Users\darshin\Desktop\grideye\grideye\component\work\grideye_mss\mss_tshell.v":1:7:1:13|Synthesizing module MSS_APB in library work.
+@N: CG364 :"C:\Users\mtstacho\Desktop\grideye\component\work\grideye_mss\mss_tshell.v":1:7:1:13|Synthesizing module MSS_APB in library work.
 
-@N: CG364 :"C:\Users\darshin\Desktop\grideye\grideye\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v":151:7:151:13|Synthesizing module MSS_CCC in library work.
+@N: CG364 :"C:\Users\mtstacho\Desktop\grideye\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v":151:7:151:13|Synthesizing module MSS_CCC in library work.
 
 @N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\smartfusion.v":2620:7:2620:11|Synthesizing module RCOSC in library work.
 
@@ -32,43 +29,43 @@ Selecting top level module grideye_top
 
 @N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\smartfusion.v":1868:7:1868:9|Synthesizing module VCC in library work.
 
-@N: CG364 :"C:\Users\darshin\Desktop\grideye\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v":5:7:5:39|Synthesizing module grideye_mss_tmp_MSS_CCC_0_MSS_CCC in library work.
+@N: CG364 :"C:\Users\mtstacho\Desktop\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v":5:7:5:39|Synthesizing module grideye_mss_tmp_MSS_CCC_0_MSS_CCC in library work.
 
-@N: CG364 :"C:\Users\darshin\Desktop\grideye\grideye\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v":85:7:85:21|Synthesizing module BIBUF_OPEND_MSS in library work.
+@N: CG364 :"C:\Users\mtstacho\Desktop\grideye\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v":85:7:85:21|Synthesizing module BIBUF_OPEND_MSS in library work.
 
-@N: CG364 :"C:\Users\darshin\Desktop\grideye\grideye\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v":23:7:23:15|Synthesizing module INBUF_MSS in library work.
+@N: CG364 :"C:\Users\mtstacho\Desktop\grideye\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v":23:7:23:15|Synthesizing module INBUF_MSS in library work.
 
-@N: CG364 :"C:\Users\darshin\Desktop\grideye\grideye\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v":37:7:37:16|Synthesizing module OUTBUF_MSS in library work.
+@N: CG364 :"C:\Users\mtstacho\Desktop\grideye\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v":37:7:37:16|Synthesizing module OUTBUF_MSS in library work.
 
-@N: CG364 :"C:\Users\darshin\Desktop\grideye\grideye\component\work\grideye_mss\grideye_mss.v":9:7:9:17|Synthesizing module grideye_mss in library work.
+@N: CG364 :"C:\Users\mtstacho\Desktop\grideye\component\work\grideye_mss\grideye_mss.v":9:7:9:17|Synthesizing module grideye_mss in library work.
 
-@N: CG364 :"C:\Users\darshin\Desktop\grideye\grideye\component\work\grideye_top\grideye_top.v":9:7:9:17|Synthesizing module grideye_top in library work.
+@N: CG364 :"C:\Users\mtstacho\Desktop\grideye\component\work\grideye_top\grideye_top.v":9:7:9:17|Synthesizing module grideye_top in library work.
 
-@W: CL157 :"C:\Users\darshin\Desktop\grideye\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v":62:7:62:18|*Output RCOSC_CLKOUT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
-@W: CL157 :"C:\Users\darshin\Desktop\grideye\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v":63:7:63:20|*Output MAINXIN_CLKOUT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
-@W: CL157 :"C:\Users\darshin\Desktop\grideye\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v":64:7:64:18|*Output LPXIN_CLKOUT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
-@N: CL159 :"C:\Users\darshin\Desktop\grideye\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v":36:7:36:10|Input CLKA is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\grideye\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v":37:7:37:14|Input CLKA_PAD is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\grideye\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v":38:7:38:15|Input CLKA_PADP is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\grideye\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v":39:7:39:15|Input CLKA_PADN is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\grideye\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v":40:7:40:10|Input CLKB is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\grideye\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v":41:7:41:14|Input CLKB_PAD is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\grideye\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v":42:7:42:15|Input CLKB_PADP is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\grideye\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v":43:7:43:15|Input CLKB_PADN is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\grideye\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v":44:7:44:10|Input CLKC is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\grideye\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v":45:7:45:14|Input CLKC_PAD is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\grideye\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v":46:7:46:15|Input CLKC_PADP is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\grideye\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v":47:7:47:15|Input CLKC_PADN is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\grideye\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v":48:7:48:13|Input MAINXIN is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\grideye\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v":49:7:49:11|Input LPXIN is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\grideye\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v":50:7:50:13|Input MAC_CLK is unused.
+@W: CL157 :"C:\Users\mtstacho\Desktop\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v":62:7:62:18|*Output RCOSC_CLKOUT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"C:\Users\mtstacho\Desktop\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v":63:7:63:20|*Output MAINXIN_CLKOUT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"C:\Users\mtstacho\Desktop\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v":64:7:64:18|*Output LPXIN_CLKOUT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@N: CL159 :"C:\Users\mtstacho\Desktop\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v":36:7:36:10|Input CLKA is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v":37:7:37:14|Input CLKA_PAD is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v":38:7:38:15|Input CLKA_PADP is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v":39:7:39:15|Input CLKA_PADN is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v":40:7:40:10|Input CLKB is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v":41:7:41:14|Input CLKB_PAD is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v":42:7:42:15|Input CLKB_PADP is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v":43:7:43:15|Input CLKB_PADN is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v":44:7:44:10|Input CLKC is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v":45:7:45:14|Input CLKC_PAD is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v":46:7:46:15|Input CLKC_PADP is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v":47:7:47:15|Input CLKC_PADN is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v":48:7:48:13|Input MAINXIN is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v":49:7:49:11|Input LPXIN is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\grideye\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v":50:7:50:13|Input MAC_CLK is unused.
 
 At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri Apr 05 16:44:33 2019
+# Mon Apr 08 14:07:35 2019
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
@@ -79,7 +76,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri Apr 05 16:44:34 2019
+# Mon Apr 08 14:07:35 2019
 
 ###########################################################]
 @END
@@ -89,6 +86,6 @@ At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri Apr 05 16:44:34 2019
+# Mon Apr 08 14:07:35 2019
 
 ###########################################################]

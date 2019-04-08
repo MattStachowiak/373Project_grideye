@@ -30,7 +30,7 @@ KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
 KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
 KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
 KEY VendorTechnology_VOLTR "COM"
-KEY ProjectLocation "C:\Users\darshin\Desktop\grideye"
+KEY ProjectLocation "C:\Users\mtstacho\Desktop\grideye"
 KEY ProjectDescription ""
 KEY Pa4PeripheralNewSeq "GOOD"
 KEY SimulationType "VERILOG"
@@ -51,14 +51,14 @@ ENDLIST
 LIST FileManager
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS\2.5.200\MSS.cxf,actgen_cxf"
 STATE="utd"
-TIME="1554497051"
+TIME="1554746805"
 SIZE="945"
 PARENT="<project>\component\work\grideye_mss\grideye_mss.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v,hdl"
 STATE="utd"
-TIME="1536348874"
-SIZE="11243"
+TIME="1554746805"
+SIZE="11942"
 PARENT="<project>\component\Actel\SmartFusionMSS\MSS\2.5.200\MSS.cxf"
 BEGIN_USE_CONSTRAINT
 TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
@@ -69,106 +69,106 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_CCC\2.0.106\MSS_CCC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1554497048"
+TIME="1554746805"
 SIZE="252"
 PARENT="<project>\component\work\grideye_mss\grideye_mss.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_CM3\1.0.200\MSS_CM3.cxf,actgen_cxf"
 STATE="utd"
-TIME="1554497048"
+TIME="1554746805"
 SIZE="252"
 PARENT="<project>\component\work\grideye_mss\grideye_mss.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_COM\1.0.200\MSS_COM.cxf,actgen_cxf"
 STATE="utd"
-TIME="1554497048"
+TIME="1554746805"
 SIZE="252"
 PARENT="<project>\component\work\grideye_mss\grideye_mss.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_DMA\1.0.101\MSS_DMA.cxf,actgen_cxf"
 STATE="utd"
-TIME="1554497048"
+TIME="1554746805"
 SIZE="252"
 PARENT="<project>\component\work\grideye_mss\grideye_mss.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_ENVM\2.3.200\MSS_ENVM.cxf,actgen_cxf"
 STATE="utd"
-TIME="1554497050"
+TIME="1554746805"
 SIZE="253"
 PARENT="<project>\component\work\grideye_mss\grideye_mss.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_FIO\1.0.203\MSS_FIO.cxf,actgen_cxf"
 STATE="utd"
-TIME="1554497050"
+TIME="1554746805"
 SIZE="252"
 PARENT="<project>\component\work\grideye_mss\grideye_mss.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_GPIO\1.0.101\MSS_GPIO.cxf,actgen_cxf"
 STATE="utd"
-TIME="1554497050"
+TIME="1554746805"
 SIZE="253"
 PARENT="<project>\component\work\grideye_mss\grideye_mss.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_I2C\1.0.101\MSS_I2C.cxf,actgen_cxf"
 STATE="utd"
-TIME="1554497050"
+TIME="1554746805"
 SIZE="252"
 PARENT="<project>\component\work\grideye_mss\grideye_mss.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_INTR\1.0.101\MSS_INTR.cxf,actgen_cxf"
 STATE="utd"
-TIME="1554497050"
+TIME="1554746805"
 SIZE="253"
 PARENT="<project>\component\work\grideye_mss\grideye_mss.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_RESET\1.0.101\MSS_RESET.cxf,actgen_cxf"
 STATE="utd"
-TIME="1554497050"
+TIME="1554746805"
 SIZE="254"
 PARENT="<project>\component\work\grideye_mss\grideye_mss.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_RTC\1.0.100\MSS_RTC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1554497050"
+TIME="1554746805"
 SIZE="252"
 PARENT="<project>\component\work\grideye_mss\grideye_mss.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_TIMER\1.0.100\MSS_TIMER.cxf,actgen_cxf"
 STATE="utd"
-TIME="1554497050"
+TIME="1554746805"
 SIZE="254"
 PARENT="<project>\component\work\grideye_mss\grideye_mss.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_UART\1.0.101\MSS_UART.cxf,actgen_cxf"
 STATE="utd"
-TIME="1554497050"
+TIME="1554746805"
 SIZE="253"
 PARENT="<project>\component\work\grideye_mss\grideye_mss.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_UFROM\1.0.100\MSS_UFROM.cxf,actgen_cxf"
 STATE="utd"
-TIME="1554497050"
+TIME="1554746805"
 SIZE="254"
 PARENT="<project>\component\work\grideye_mss\grideye_mss.cxf"
 ENDFILE
 VALUE "<project>\component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf,actgen_cxf"
 STATE="utd"
-TIME="1554497067"
+TIME="1554746805"
 SIZE="2203"
 ENDFILE
 VALUE "<project>\component\work\DESIGN_IO\DESIGN_IO.cxf,actgen_cxf"
 STATE="utd"
-TIME="1554492744"
+TIME="1554746805"
 SIZE="413"
 ENDFILE
 VALUE "<project>\component\work\grideye_mss\grideye_mss.cxf,actgen_cxf"
 STATE="utd"
-TIME="1554497052"
+TIME="1554746805"
 SIZE="9966"
 ENDFILE
 VALUE "<project>\component\work\grideye_mss\grideye_mss.pdc,pdc"
 STATE="utd"
-TIME="1554497047"
+TIME="1554746805"
 SIZE="1039"
 PARENT="<project>\component\work\grideye_mss\grideye_mss.cxf"
 BEGIN_USE_CONSTRAINT
@@ -179,34 +179,34 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\grideye_mss\grideye_mss.v,hdl"
 STATE="utd"
-TIME="1554497051"
+TIME="1554746805"
 SIZE="17818"
 PARENT="<project>\component\work\grideye_mss\grideye_mss.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1554497048"
+TIME="1554746805"
 SIZE="489"
 PARENT="<project>\component\work\grideye_mss\grideye_mss.cxf"
 ENDFILE
 VALUE "<project>\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v,hdl"
 STATE="utd"
-TIME="1554497048"
+TIME="1554746805"
 SIZE="2906"
 PARENT="<project>\component\work\grideye_mss\MSS_CCC_0\grideye_mss_tmp_MSS_CCC_0_MSS_CCC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\grideye_mss\MSS_ENVM_0\MSS_ENVM_0.efc,efc"
 STATE="utd"
-TIME="1554497050"
+TIME="1554746805"
 SIZE="15874"
 PARENT="<project>\component\work\grideye_mss\grideye_mss.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\grideye_mss\mss_tshell.v,hdl"
 STATE="utd"
-TIME="1554497050"
+TIME="1554746805"
 SIZE="12226"
 PARENT="<project>\component\work\grideye_mss\grideye_mss.cxf"
 BEGIN_USE_CONSTRAINT
@@ -218,12 +218,12 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\grideye_top\grideye_top.cxf,actgen_cxf"
 STATE="utd"
-TIME="1554497069"
+TIME="1554746805"
 SIZE="3876"
 ENDFILE
 VALUE "<project>\component\work\grideye_top\grideye_top.pdc,pdc"
 STATE="utd"
-TIME="1554497066"
+TIME="1554746805"
 SIZE="1190"
 PARENT="<project>\component\work\grideye_top\grideye_top.cxf"
 BEGIN_USE_CONSTRAINT
@@ -234,104 +234,104 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\grideye_top\grideye_top.v,hdl"
 STATE="utd"
-TIME="1554497067"
+TIME="1554746805"
 SIZE="2041"
 PARENT="<project>\component\work\grideye_top\grideye_top.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\designer\impl1\grideye_top.adb,adb"
 STATE="utd"
-TIME="1554497107"
+TIME="1554746805"
 SIZE="273408"
 ENDFILE
 VALUE "<project>\designer\impl1\grideye_top.fdb,fdb"
 STATE="utd"
-TIME="1554497107"
+TIME="1554746805"
 SIZE="32519"
 ENDFILE
 VALUE "<project>\designer\impl1\grideye_top.ide_des,ide_des"
 STATE="utd"
-TIME="1554497107"
+TIME="1554746805"
 SIZE="1081"
 ENDFILE
 VALUE "<project>\designer\impl1\grideye_top_compile_log.rpt,log"
 STATE="utd"
-TIME="1554497083"
+TIME="1554746805"
 SIZE="31556"
 ENDFILE
 VALUE "<project>\designer\impl1\grideye_top_fp\grideye_top.pdb,pdb"
 STATE="utd"
-TIME="1554497125"
-SIZE="38014"
+TIME="1554746805"
+SIZE="38008"
 ENDFILE
 VALUE "<project>\designer\impl1\grideye_top_fp\grideye_top.pro,pro"
 STATE="utd"
-TIME="1554497163"
-SIZE="2422"
+TIME="1554746805"
+SIZE="2398"
 ENDFILE
 VALUE "<project>\designer\impl1\grideye_top_fp\projectData\grideye_top.pdb,pdb"
 STATE="utd"
-TIME="1554497163"
-SIZE="38014"
+TIME="1554746805"
+SIZE="38008"
 ENDFILE
 VALUE "<project>\designer\impl1\grideye_top_placeroute_log.rpt,log"
 STATE="utd"
-TIME="1554497094"
+TIME="1554746805"
 SIZE="2646"
 ENDFILE
 VALUE "<project>\designer\impl1\grideye_top_prgdata_log.rpt,log"
 STATE="utd"
-TIME="1554497107"
+TIME="1554746805"
 SIZE="685"
 ENDFILE
 VALUE "<project>\designer\impl1\grideye_top_verifytiming_log.rpt,log"
 STATE="utd"
-TIME="1554497098"
+TIME="1554746805"
 SIZE="1178"
 ENDFILE
 VALUE "<project>\simulation\CompileDssBfm.tcl,sim"
 STATE="utd"
-TIME="1536348874"
-SIZE="41"
+TIME="1554746805"
+SIZE="42"
 PARENT="<project>\component\Actel\SmartFusionMSS\MSS\2.5.200\MSS.cxf"
 ENDFILE
 VALUE "<project>\simulation\subsystem.bfm,sim"
 STATE="utd"
-TIME="1554497067"
+TIME="1554746805"
 SIZE="602"
 PARENT="<project>\component\work\grideye_top\grideye_top.cxf"
 ENDFILE
 VALUE "<project>\simulation\test.bfm,sim"
 STATE="utd"
-TIME="1554497049"
+TIME="1554746805"
 SIZE="5460"
 PARENT="<project>\component\work\grideye_mss\grideye_mss.cxf"
 ENDFILE
 VALUE "<project>\simulation\user.bfm,sim"
 STATE="utd"
-TIME="1554492657"
+TIME="1554746805"
 SIZE="670"
 PARENT="<project>\component\work\grideye_mss\grideye_mss.cxf"
 ENDFILE
 VALUE "<project>\synthesis\grideye_top.edn,syn_edn"
 STATE="utd"
-TIME="1554497076"
+TIME="1554746805"
 SIZE="98980"
 ENDFILE
 VALUE "<project>\synthesis\grideye_top.so,so"
 STATE="utd"
-TIME="1554497076"
+TIME="1554746805"
 SIZE="232"
 ENDFILE
 VALUE "<project>\synthesis\grideye_top_sdc.sdc,syn_sdc"
 STATE="utd"
-TIME="1554497076"
+TIME="1554746805"
 SIZE="310"
 ENDFILE
 VALUE "<project>\synthesis\grideye_top_syn.prj,prj"
 STATE="utd"
-TIME="1554497076"
-SIZE="2213"
+TIME="1554746805"
+SIZE="2165"
 ENDFILE
 ENDLIST
 LIST UsedFile
@@ -441,10 +441,10 @@ ENDLIST
 LIST PhySynthesisOptions
 ENDLIST
 LIST Profiles
-NAME="Softconsole33"
+NAME="SoftConsole"
 FUNCTION="SoftwareIDE"
 TOOL="SoftConsole"
-LOCATION="C:\Microsemi\SoftConsole v3.3\Eclipse\eclipse.exe"
+LOCATION="eclipse.exe"
 PARAM=""
 BATCH=0
 LICENSE=""
@@ -515,12 +515,8 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
-Reports;Reports;0
-ReportsCurrentItem;Program Device:grideye_top_program.log
 StartPage;StartPage;0
-SmartDesign;grideye_top;0
-SmartDesign;grideye_mss;0
-ACTIVEVIEW;Reports
+ACTIVEVIEW;StartPage
 ENDLIST
 LIST ModuleSubBlockList
 LIST "BIBUF_MSS::work","component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v","FALSE","FALSE"

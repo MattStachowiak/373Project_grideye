@@ -1,13 +1,13 @@
 ***************************************************************************
                                Status Report
-                          Fri Apr 05 16:44:41 2019 ***************************************************************************
+                          Mon Apr 08 14:07:44 2019 ***************************************************************************
 
 Product: Designer
 Release: v11.9
 Version: 11.9.0.4
-File Name: C:\Users\darshin\Desktop\grideye\grideye\designer\impl1\grideye_top.adb
+File Name: C:\Users\mtstacho\Desktop\grideye\designer\impl1\grideye_top.adb
 Design Name: grideye_top  Design State: compile
-Last Saved: Fri Apr 05 15:33:24 2019
+Last Saved: Mon Apr 08 14:06:45 2019
 
 ***** Device Data **************************************************
 
@@ -22,9 +22,9 @@ Voltage Range:   COM
 
 ***** Import Variables *********************************************
 
-Source File(s) Imported on Fri Apr 05 16:44:38 2019:
-        C:\Users\darshin\Desktop\grideye\grideye\synthesis\grideye_top.edn
-        C:\Users\darshin\Desktop\grideye\grideye\component\work\grideye_top\grideye_top.pdc
+Source File(s) Imported on Mon Apr 08 14:07:41 2019:
+        C:\Users\mtstacho\Desktop\grideye\synthesis\grideye_top.edn
+        C:\Users\mtstacho\Desktop\grideye\component\work\grideye_top\grideye_top.pdc
 
 
 ***** CAE Variables ************************************************
@@ -50,9 +50,8 @@ Parameters used to run compile:
 Family      : SmartFusion
 Device      : A2F200M3F
 Package     : 484 FBGA
-Source      : C:\Users\darshin\Desktop\grideye\grideye\synthesis\grideye_top.edn
-
-C:\Users\darshin\Desktop\grideye\grideye\component\work\grideye_top\grideye_top.pdc
+Source      : C:\Users\mtstacho\Desktop\grideye\synthesis\grideye_top.edn
+              C:\Users\mtstacho\Desktop\grideye\component\work\grideye_top\grideye_top.pdc
 Format      : EDIF
 Topcell     : grideye_top
 Speed grade : STD

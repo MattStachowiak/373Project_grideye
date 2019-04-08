@@ -38,13 +38,16 @@ void gridEYE_write(uint8_t* reg_addr, uint8_t* data){
 // recieved_data: 1-byte array where received data will be placed
 void gridEYE_read(uint8_t* reg_addr, uint8_t* recieved_data ){
 
-	MSS_I2C_write_read( &g_mss_i2c1,
-						gridEYE_ADDR,
-						reg_addr,
-						1,
-						recieved_data,
-						1,
-	                    MSS_I2C_RELEASE_BUS );
+	MSS_I2C_write_read
+		(
+				&g_mss_i2c1,
+				gridEYE_ADDR,
+				reg_addr,
+				1,
+				recieved_data,
+				1,
+				MSS_I2C_RELEASE_BUS
+		);
 
 	MSS_I2C_wait_complete(&g_mss_i2c1, MSS_I2C_NO_TIMEOUT);
 }

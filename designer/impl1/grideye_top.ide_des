@@ -20,10 +20,10 @@ KEY IDE_DES_BLOCK_PUBLISH "FALSE"
 KEY IDE_DES_BA_EXPORTED "FALSE"
 KEY IDE_DES_INTERACTIVE "FALSE"
 KEY IDE_DES_ERROR_FOUND "FALSE"
-KEY IDE_DES_ADB_PATH "C:\Users\darshin\Desktop\grideye\grideye\designer\impl1\grideye_top.adb"
+KEY IDE_DES_ADB_PATH "C:\Users\mtstacho\Desktop\grideye\designer\impl1\grideye_top.adb"
 LIST SOURCE_FILES
-VALUE "C:\Users\darshin\Desktop\grideye\grideye\synthesis\grideye_top.edn;edn"
-VALUE "C:\Users\darshin\Desktop\grideye\grideye\component\work\grideye_top\grideye_top.pdc;pdc"
+VALUE "C:\Users\mtstacho\Desktop\grideye\synthesis\grideye_top.edn;edn"
+VALUE "C:\Users\mtstacho\Desktop\grideye\component\work\grideye_top\grideye_top.pdc;pdc"
 ENDLIST
 LIST OPTIONAL_FILES
 ENDLIST

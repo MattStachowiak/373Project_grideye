@@ -1,6 +1,6 @@
 <project name="grideye_top" version="1.1">
     <ProjectDirectory>
-        C:\Users\darshin\Desktop\grideye\designer\impl1\grideye_top_fp
+        C:\Users\mtstacho\Desktop\grideye\designer\impl1\grideye_top_fp
     </ProjectDirectory>
     <View>
         SingleSTAPLView
@@ -9,7 +9,7 @@
         
     </LiberoTargetDevice>
     <LogFile>
-        C:\Users\darshin\Desktop\grideye\designer\impl1\grideye_top_fp\grideye_top.log
+        C:\Users\mtstacho\Desktop\grideye\designer\impl1\grideye_top_fp\grideye_top.log
     </LogFile>
     <SerializationOption>
         Skip
@@ -74,7 +74,7 @@
         </Hardware>
         <Algo type="PDB">
             <filename>
-                C:\Users\darshin\Desktop\grideye\designer\impl1\grideye_top_fp\grideye_top.pdb
+                C:\Users\mtstacho\Desktop\grideye\designer\impl1\grideye_top_fp\grideye_top.pdb
             </filename>
             <local>
                 projectData\grideye_top.pdb

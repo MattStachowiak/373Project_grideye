@@ -23,19 +23,19 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING
   9 .debug_abbrev 000009ac  00000000  00000000  000169b5  2**0
                   CONTENTS, READONLY, DEBUGGING
- 10 .debug_line   00001a7a  00000000  00000000  00017361  2**0
+ 10 .debug_line   00001a7e  00000000  00000000  00017361  2**0
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_frame  00001834  00000000  00000000  00018ddc  2**2
+ 11 .debug_frame  00001834  00000000  00000000  00018de0  2**2
                   CONTENTS, READONLY, DEBUGGING
- 12 .debug_str    00002128  00000000  00000000  0001a610  2**0
+ 12 .debug_str    0000212a  00000000  00000000  0001a614  2**0
                   CONTENTS, READONLY, DEBUGGING
- 13 .debug_loc    00001528  00000000  00000000  0001c738  2**0
+ 13 .debug_loc    00001528  00000000  00000000  0001c73e  2**0
                   CONTENTS, READONLY, DEBUGGING
- 14 .debug_macinfo 0002703f  00000000  00000000  0001dc60  2**0
+ 14 .debug_macinfo 0002703f  00000000  00000000  0001dc66  2**0
                   CONTENTS, READONLY, DEBUGGING
- 15 .ARM.attributes 00000025  00000000  00000000  00044c9f  2**0
+ 15 .ARM.attributes 00000025  00000000  00000000  00044ca5  2**0
                   CONTENTS, READONLY
- 16 .debug_ranges 000003b8  00000000  00000000  00044cc4  2**0
+ 16 .debug_ranges 000003b8  00000000  00000000  00044cca  2**0
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:
@@ -804,7 +804,7 @@ void gridEYE_read(uint8_t* reg_addr, uint8_t* recieved_data ){
 200004f6:	6078      	str	r0, [r7, #4]
 200004f8:	6039      	str	r1, [r7, #0]
 
-	MSS_I2C_write_read( &g_mss_i2c1,
+	MSS_I2C_write_read
 200004fa:	683b      	ldr	r3, [r7, #0]
 200004fc:	9300      	str	r3, [sp, #0]
 200004fe:	f04f 0301 	mov.w	r3, #1
@@ -817,10 +817,10 @@ void gridEYE_read(uint8_t* reg_addr, uint8_t* recieved_data ){
 20000516:	687a      	ldr	r2, [r7, #4]
 20000518:	f04f 0301 	mov.w	r3, #1
 2000051c:	f000 fd68 	bl	20000ff0 <MSS_I2C_write_read>
-						1,
-						recieved_data,
-						1,
-	                    MSS_I2C_RELEASE_BUS );
+				recieved_data,
+				1,
+				MSS_I2C_RELEASE_BUS
+		);
 
 	MSS_I2C_wait_complete(&g_mss_i2c1, MSS_I2C_NO_TIMEOUT);
 20000520:	f648 10dc 	movw	r0, #35292	; 0x89dc

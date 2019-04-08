@@ -1,18 +1,18 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09M-SP1-5
-#--  Project file C:\Users\darshin\Desktop\grideye\grideye\synthesis\scratchproject.prs
+#--  Project file C:\Users\mtstacho\Desktop\grideye\synthesis\scratchproject.prs
 
 #project files
-add_file -verilog "C:/Users/darshin/Desktop/grideye/grideye/component/Actel/SmartFusionMSS/MSS/2.5.200/mss_comps.v"
-add_file -verilog "C:/Users/darshin/Desktop/grideye/grideye/component/work/grideye_mss/mss_tshell.v"
-add_file -verilog "C:/Users/darshin/Desktop/grideye/grideye/component/work/grideye_mss/MSS_CCC_0/grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v"
-add_file -verilog "C:/Users/darshin/Desktop/grideye/grideye/component/work/grideye_mss/grideye_mss.v"
-add_file -verilog "C:/Users/darshin/Desktop/grideye/grideye/component/work/grideye_top/grideye_top.v"
+add_file -verilog "C:/Users/mtstacho/Desktop/grideye/component/Actel/SmartFusionMSS/MSS/2.5.200/mss_comps.v"
+add_file -verilog "C:/Users/mtstacho/Desktop/grideye/component/work/grideye_mss/mss_tshell.v"
+add_file -verilog "C:/Users/mtstacho/Desktop/grideye/component/work/grideye_mss/MSS_CCC_0/grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v"
+add_file -verilog "C:/Users/mtstacho/Desktop/grideye/component/work/grideye_mss/grideye_mss.v"
+add_file -verilog "C:/Users/mtstacho/Desktop/grideye/component/work/grideye_top/grideye_top.v"
 
 
 
 #implementation: "synthesis"
-impl -add C:\Users\darshin\Desktop\grideye\grideye\synthesis -type fpga
+impl -add C:\Users\mtstacho\Desktop\grideye\synthesis -type fpga
 
 #
 #implementation attributes
@@ -74,5 +74,5 @@ set_option -auto_infer_blackbox 0
 set_option -write_apr_constraint 1
 
 #set result format/file last
-project -result_file "C:/Users/darshin/Desktop/grideye/grideye/synthesis/grideye_top.edn"
+project -result_file "C:/Users/mtstacho/Desktop/grideye/synthesis/grideye_top.edn"
 impl -active "synthesis"

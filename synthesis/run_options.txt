@@ -1,15 +1,15 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09M-SP1-5
-#--  Project file C:\Users\darshin\Desktop\grideye\grideye\synthesis\run_options.txt
-#--  Written on Fri Apr 05 16:44:33 2019
+#--  Project file C:\Users\mtstacho\Desktop\grideye\synthesis\run_options.txt
+#--  Written on Mon Apr 08 14:07:35 2019
 
 
 #project files
-add_file -verilog "C:/Users/darshin/Desktop/grideye/grideye/component/Actel/SmartFusionMSS/MSS/2.5.200/mss_comps.v"
-add_file -verilog "C:/Users/darshin/Desktop/grideye/grideye/component/work/grideye_mss/mss_tshell.v"
-add_file -verilog "C:/Users/darshin/Desktop/grideye/grideye/component/work/grideye_mss/MSS_CCC_0/grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v"
-add_file -verilog "C:/Users/darshin/Desktop/grideye/grideye/component/work/grideye_mss/grideye_mss.v"
-add_file -verilog "C:/Users/darshin/Desktop/grideye/grideye/component/work/grideye_top/grideye_top.v"
+add_file -verilog "C:/Users/mtstacho/Desktop/grideye/component/Actel/SmartFusionMSS/MSS/2.5.200/mss_comps.v"
+add_file -verilog "C:/Users/mtstacho/Desktop/grideye/component/work/grideye_mss/mss_tshell.v"
+add_file -verilog "C:/Users/mtstacho/Desktop/grideye/component/work/grideye_mss/MSS_CCC_0/grideye_mss_tmp_MSS_CCC_0_MSS_CCC.v"
+add_file -verilog "C:/Users/mtstacho/Desktop/grideye/component/work/grideye_mss/grideye_mss.v"
+add_file -verilog "C:/Users/mtstacho/Desktop/grideye/component/work/grideye_top/grideye_top.v"
 
 
 

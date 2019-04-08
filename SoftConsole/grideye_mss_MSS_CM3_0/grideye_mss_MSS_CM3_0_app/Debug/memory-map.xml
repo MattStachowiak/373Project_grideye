@@ -1,4 +1,4 @@
-<!-- File generated from C:\Users\darshin\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\CMSIS\startup_gcc\debug-in-actel-smartfusion-esram.ld -->
+<!-- File generated from C:\Users\mtstacho\Desktop\grideye\SoftConsole\grideye_mss_MSS_CM3_0\grideye_mss_MSS_CM3_0_hw_platform\CMSIS\startup_gcc\debug-in-actel-smartfusion-esram.ld -->
 <board>
  <properties>
   <property name="system-v6-m"/>
