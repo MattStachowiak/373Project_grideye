@@ -52,7 +52,7 @@ void gridEYE_read(uint8_t* reg_addr, uint8_t* recieved_data ){
 	MSS_I2C_wait_complete(&g_mss_i2c1, MSS_I2C_NO_TIMEOUT);
 }//gridEYE_read()
 
-// Function converts a 12 byte 2C number to
+// Function converts a 12 bit 2C number to
 // a signed float
 float raw_to_temp(uint8_t upper, uint8_t lower){
 
