@@ -27,11 +27,11 @@ void gridEYE_write(uint8_t* reg_addr, uint8_t* data){
 				signal,
 				sizeof(signal),
 				MSS_I2C_RELEASE_BUS
-
 		);
 
 	MSS_I2C_wait_complete(&g_mss_i2c1, MSS_I2C_NO_TIMEOUT);
 }//gridEYE_write()
+
 
 // Read from a specific register on the gridEYE
 // reg_addr: 1-byte array containing address of register to read
@@ -51,6 +51,7 @@ void gridEYE_read(uint8_t* reg_addr, uint8_t* recieved_data ){
 
 	MSS_I2C_wait_complete(&g_mss_i2c1, MSS_I2C_NO_TIMEOUT);
 }//gridEYE_read()
+
 
 // Function converts a 12 bit 2C number to
 // a signed float
@@ -95,6 +96,7 @@ void get_temps_reversed(uint8_t* data_in, float temps[][8]){
 	}
 }//get_temps_reversed()
 
+
 // Function converts 128 byte raw data array
 // to a set of 64 signed float values
 // Data is oriented in the same positions
@@ -119,6 +121,7 @@ void get_temps_forward(uint8_t* data_in, float temps[][8]){
 		++j;
 	}
 }//get_temps_forward()
+
 
 int main()
 {
